@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/proyecto.css">
+    <title>Proyec-ToDo</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="top">
+        <img src="images/logo.svg" alt="">
+    </div>
+    <div class="sidebar">
+		<div class="logo-details">
+			<i class='bx bxs-component icon'></i>
+			<div class="logo_name">Proyect ToDo</div>
+			<i class="bx bx-menu" id="btn"></i>
+		</div>
+		<ul class="nav_list">
+			<li>
+				<i class="bx bx-search" ></i>
+				<input type="text" placeholder="Buscar">
+			<span class="tooltip">Buscar</span>
+		</li>
+					<li>
+			<a href="#">
+				<i class="bx bxs-home" ></i>
+				<span class="links_name">Home</span>
+			</a>
+			 <span class="tooltip">Home</span>
+		</li>
+		<li>
+			<a href="#">
+				<i class="bx bxs-user"></i>
+				<span class="links_name">Perfil</span>
+			</a>
+			<span class="tooltip">Perfil</span>
+		</li>
+			<li>
+			<a href="#">
+				<i class="bx bxs-book-alt"></i>
+				<span class="links_name">Proyectos</span>
+			</a>
+			<span class="tooltip">Proyectos</span>
+		</li>
+					<li>
+			<a href="#">
+				<i class="bx bx-book-alt"></i>
+				<span class="links_name">Tareas</span>
+			</a>
+			<span class="tooltip">Tareas</span>
+		</li>
+					<li>
+			<a href="#">
+				<i class="bx bxs-book-add" ></i>
+				<span class="links_name">Proyecto Nuevo</span>
+			</a>
+			 <span class="tooltip">Proyecto Nuevo</span>
+		</li>
+					<li>
+			<a href="#">
+				<i class="bx bx-log-out" ></i>
+				<span class="links_name">Cerrar Sesion</span>
+			</a>
+			<span class="tooltip">Cerrar Sesion</span>
+		</li>
+		</ul>
+	</div>
+
+<!-- Main section -->
+
+	<section class="home-section">
+      <div class="post-section">
+        <div class="title">
+          <div class="titulo">NOMBRE PROYECTO</div>
+          <p><br>Descripción Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="Integrantes">
+          <table>
+            <thead>
+              <th>Nombre</th>
+              <th>Apellidos</th>
+              <th>Especialidad</th>
+              <th>Correo</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Héctor</td>
+                <td>Díaz Vidal</td>
+                <td>Back-end</td>
+                <td>---------------</td>
+              </tr>
+              <tr>
+                <td>Luis</td>
+                <td>Flores Valladares</td>
+                <td>Front-end</td>
+                <td>---------------</td>
+              </tr>
+              <tr>
+                <td>Leobardo</td>
+                <td>Juarez Vargas</td>
+                <td>DataBase</td>
+                <td>---------------</td>
+              </tr>
+              <tr>
+                <td>Leonardo</td>
+                <td>Perez Lopez</td>
+                <td>Front-end</td>
+                <td>---------------</td>
+              </tr>
+              <tr>
+                <td>Carlos</td>
+                <td>Martinez Luna</td>
+                <td>DataBased</td>
+                <td>---------------</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="right_section">
+        <div class="calendar">
+          <h1>Calendario</h1>
+          <ol>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+          </ol>
+        </div>
+        <div class="Tareas">
+          <h1>Tareas</h1>
+          <table class="tabla">
+            <thead>
+              <th>Proyecto</th>
+              <th>Descripción</th>
+              <th>Fecha creación</th>
+              <th>Fecha Entrega</th>
+            </thead>
+            <tbody>
+              <td>Aqui va la información de la tabla</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </section>
+  <script src="slidebar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.post{
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  padding: 0px 60px;
+  height: 30vh;
+  width: 50vw;
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 30px;
+  box-shadow: -5px 10px 20px #888888;
+  transition: ease 0.3s;
+}
+.post:hover {
+  width: 55vw;
+  height: 35vh;
+  box-shadow: -8px 10px 30px #888888;
+}
+.description{
+  box-sizing: border-box;
+}

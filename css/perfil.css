@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.profile-section{
+  width:60vw;
+  height: inherit;
+  padding: 10px 30px;
+  margin: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: -5px 10px 20px #888888;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.basica{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+.basica img{
+  width: 15rem;
+  border-radius: 50%;
+  box-shadow: 0px 10px 20px #888888;
+  margin-bottom: 20px;
+  transition: ease 0.3s;
+}
+.basica img:hover{
+  width: 16rem;
+}
+.basica h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+}
+.complemento{
+  display: flex;
+  box-sizing: border-box;
+  width: 90%;
+}
+.complemento ul{
+  align-self: center;
+  margin: 20px 0;
+  border: solid #8c8c8c;
+  padding: 10px;
+  border-radius: 10px;
+}
+.complemento li{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.proyectos li a{
+  text-decoration: none;
+  color: #000;
+}
+.proyectos li:hover{
+  font-style: normal;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.informacion ul{
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  justify-content: center;
+  padding: 20px 0;
+}
+.informacion li{
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px #888888;
+  padding: 0 20px;
+  transition: ease 0.2s;
+}
+.informacion li:hover{
+  border: solid gray;
+  box-shadow: 2px 5px 18px #888888;
+}
