@@ -1,0 +1,40 @@
+.feed{
+  width:60vw;
+  height: inherit;
+  padding: 10px 30px;
+  margin: 30px;
+  margin-bottom: 20px;
+  background: #babbbb;
+  border-radius: 10px;
+  box-shadow: -5px 10px 20px #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.asignacion{
+  box-sizing: border-box;
+  background: #Fff;
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 990px;
+  margin: 20px 0;
+}
+
+.tarea h1, h2{
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  border: solid gray;
+  border-radius: 10px;
+}
+.respuesta{
+  padding: 20px;
+  border: solid gray;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+.submit{
+  right: 100;
+}
